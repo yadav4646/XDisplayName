@@ -39,7 +39,8 @@ function App() {
           <button type="submit">Submit</button>
         </div>
       </form>
-      {fullName && <h3>Full name: {fullName}</h3>}
+      {/* Add "Full Name:" prefix */}
+      {fullName && <h3>Full Name: {fullName}</h3>}
     </div>
   );
 }
